@@ -2,10 +2,10 @@
 # Algoritmos e Estruturas de Dados (AED)
 Repositório para publicação das resoluções dos exercícios de Laboratório das disciplinas de programação da PUC Minas!
 
-## Alunos integrantes da equipe
+## Aluna:
 
-* Nome completo do aluno
+* Gabriella Dantas de Abreu Fandim
 
-## Professor responsável
+## Professor responsável:
 
-* Nome completo do professor
+* Leonardo Vilela Cardoso
