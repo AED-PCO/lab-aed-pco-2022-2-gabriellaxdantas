@@ -4,46 +4,48 @@
 // Crie um vetor resultante C que possua os elementos comuns entre A e B.
 // Crie um vetor resultante D que contenha os elementos de A que não existam em B.
 
-    int [] vetorA = new int [5];
-    int [] vetorB= new int [5];
-    int [] vetorC = new int [5];
-    int [] vetorD = new int [5];
-    int i, j, k=0;
+    int[] vetorA = new int[5];
+    int[] vetorB = new int[5];
+    int[] vetorC = new int[5];
+    int[] vetorD = new int[5];
+    int auxC = 0, auxD = 0, aux = 0;
 
-    for(i=0; i<5; i++){
-        Console.WriteLine("Informe um valor para a posição {0} do vetor A", i);
-        vetorA[i]=int.Parse(Console.ReadLine());
+    Console.WriteLine("Informe os valores para o vetor A:");
+        for(int i =0; i< vetorA.Length; i++){
+                vetorA[i] = int.Parse(Console.ReadLine());
+        }
+
+    Console.WriteLine("Informe os valores para o vetor B:");
+        for(int i =0; i< vetorB.Length; i++){
+                vetorB[i] = int.Parse(Console.ReadLine());
+        }
+
+
+    for (int i = 0; i < vetorB.Length; i++){
+        for (int j = 0; j < vetorA.Length; j++){
+            if (vetorA[j] == vetorB[i]){
+                vetorC[auxC] = vetorA[j];
+                auxC++;
+            }
+            if (vetorA[i] == vetorB[j]) 
+                aux++;
+        }
+            if (aux == 0){
+                vetorD[auxD] = vetorA[i];
+                auxD++;
+            }
+                aux = 0;
     }
+    Console.WriteLine("Os elementos comuns entre os vetores A e B são:");
+        for (int i = 0; i < vetorC.Length; i++){
+                if (vetorC[i] != 0){
+                    Console.WriteLine(vetorC[i]);
+                }
+        }
 
-    for(i=0; i<5; i++){
-        Console.WriteLine("Informe um valor para a posição {0} do vetor B", i);
-        vetorB[i]=int.Parse(Console.ReadLine());
-    }
-
-    for (i = 0; i < 5; i++){
-        for (j = 0; j < 5; j++){
-            if (vetorA[i] == vetorB[j]){
-                vetorC[k] = vetorA[i];
-                k++;
+    Console.WriteLine("Os elementos que existem no vetor A mas não existem no vetor B são:");
+        for (int i = 0; i < vetorD.Length; i++){
+            if (vetorD[i] != 0){
+                    Console.WriteLine(vetorD[i]);
             }
         }
-    }
-
-    Console.WriteLine("Vetor de elementos comuns entre A e B:");
-    for(i=0; i<vetorC.Length; i++){
-        Console.WriteLine(vetorC[i]);
-    }
-
-    for (i = 0; i < 5; i++){
-        for (j = 0; j < 5; j++){
-            if (vetorA[i] != vetorB[j]){
-                vetorD[k] = vetorA[i];
-                k++;
-            }
-        }
-    }
-
-    Console.WriteLine("Vetor de elementos de A que não existem em B:");
-    for(int g=0; g<5; g++){
-        Console.WriteLine(vetorD[g]);
-    }
