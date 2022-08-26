@@ -27,7 +27,7 @@ ___
 ##### Foi feito um programa que somava as linhas e colunas de uma matriz
 
 ### Resolução:
-!(https://github.com/AED-PCO/lab-aed-pco-2022-2-gabriellaxdantas/blob/main/relatorio/Laboratorio%201/img/Lab1-Ex4.png)
+!(relatorio/Laboratorio 1/img/Lab1-Ex1.png)
 
 ___
 # **Exercício 5** 
