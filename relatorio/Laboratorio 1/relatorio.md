@@ -1,6 +1,6 @@
 # **Exercício 1** 
 ___
-##### Foi proposto pelo exercício a criação de uma algoritimo que pudesse mostras todos os números que tem quadrados perfeitos de 1000 até 9999.
+##### Foi proposto pelo exercício a criação de uma algoritimo que pudesse mostrar todos os números que tem quadrados perfeitos de 1000 até 9999.
 
 ### Resolução:
 [(https://github.com/AED-PCO/lab-aed-pco-2022-2-gabriellaxdantas/blob/main/relatorio/Laboratorio%201/img/Lab1-Ex1.png)](https://github.com/AED-PCO/lab-aed-pco-2022-2-gabriellaxdantas/blob/f0cf8351337e4b915237993d04b05b04a725aea8/relatorio/Laboratorio%201/img/Lab1-Ex1.png)
