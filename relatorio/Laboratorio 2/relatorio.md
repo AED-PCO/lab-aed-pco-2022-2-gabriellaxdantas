@@ -2,6 +2,8 @@
 ___
 ##### Foi proposto pelo exercício a criação de um método recursivo para calcular o fatorial de um número 
 
+
+##### Criei uma função recurssiva que tinha como parada o valor 2 (fazia o retorno de 2, já que o fatorial de 2 é 2).
 ### Resolução:
 (https://github.com/AED-PCO/lab-aed-pco-2022-2-gabriellaxdantas/blob/5267b26c70aafd2bf5e11145f5a46328b29aeac9/relatorio/Laboratorio%202/img/Lab2-Ex1.png)
 
