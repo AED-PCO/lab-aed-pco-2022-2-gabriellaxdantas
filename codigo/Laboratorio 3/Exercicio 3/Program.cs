@@ -14,6 +14,10 @@
 const int tamanho = 5;
 int pos = 0;
 int[] vetor = new int[tamanho] { 15, 32, 47, 60, 99 };
- Console.WriteLine("Digite o número que você deseja saber a posição no vetor: ");
+Console.WriteLine("Os valores do vetor são:");
+for(int i = 0; i < tamanho; i++){
+    Console.Write(vetor [i] + " ");
+}
+ Console.WriteLine("\nDigite o número que você deseja saber a posição no vetor: ");
 int n = int.Parse(Console.ReadLine());
 Console.WriteLine("O valor {0} se encontra na {1}° posição do vetor", n, procurar(vetor, 0, tamanho - 1, n, pos));

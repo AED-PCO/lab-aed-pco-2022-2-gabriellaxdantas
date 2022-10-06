@@ -11,7 +11,11 @@
 
  const int tamanho = 10;
 int[] vetor = new int[tamanho] { 120, 128, 298, 1576, 1876, 1900, 1907, 1921, 3565, 10198 };
+Console.WriteLine("Os valores do vetor são:");
+for(int i =  0; i<tamanho; i++){
+    Console.Write(vetor[i] + " ");
+}
            
-Console.WriteLine("Informe o número que deseja procurar no vetor: ");
+Console.WriteLine("\nInforme o número que deseja procurar no vetor: ");
 int n = int.Parse(Console.ReadLine());
 Console.WriteLine("O número {0} está na {1}° posição do vetor", n, procurar(vetor, 0, tamanho - 1, n));
