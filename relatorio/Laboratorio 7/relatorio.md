@@ -31,6 +31,8 @@ No caso do Merge Sort as operações mais relevantes são as divisões do vetor 
 * Demonstre a viabilidade da sua solução (Aqui utilizando um algoritimo que gere CPFs e uma entrada de 50.000).
 A viabilidade da minha solução está representada na imagem abaixo:
 
+![ex4](https://github.com/AED-PCO/lab-aed-pco-2022-2-gabriellaxdantas/blob/69f2e8f104e65d4c8e2040b717146993c3609fbb/relatorio/Laboratorio%207/img/Lab7Ex4.png)
+
 Criei um metodo que ficou responsável pela criação de 50.000 CPFs simulados para a utilização no teste de viabilidade da minha solução para o problema passado. Com a quantidade de CPFs passada, começamos a organização desses dados tendo como técnica o Merge Sort. Também foi criado um metodo separado para a aplicação da técnica. Após a ordenação feita, foi printado na tela o vetor.
 
 
