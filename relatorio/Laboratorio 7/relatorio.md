@@ -19,6 +19,8 @@ A função faz um decremento de 2 e um incremento de 5 a variavel A, sendo assim
 ## **Exercício 3**
 * Descreva quais são as operações relevantes
 As operações relevantes presentes nesse algoritimo são: as trocas das posições através dos laços de repetição presentes.
+
+
 ![ex3](https://github.com/AED-PCO/lab-aed-pco-2022-2-gabriellaxdantas/blob/85dde6cefb8485fdc9dcbba52fcfae250a494059/relatorio/Laboratorio%207/img/Lab7Ex3a.png)
 ![ex3](https://github.com/AED-PCO/lab-aed-pco-2022-2-gabriellaxdantas/blob/85dde6cefb8485fdc9dcbba52fcfae250a494059/relatorio/Laboratorio%207/img/Lab7Ex3b.png)
 
