@@ -38,3 +38,4 @@ Criei um metodo que ficou responsável pela criação de 50.000 CPFs simulados p
 ## **Exercício 5**
 * Analise e indique o que será retornado pela função caso os parâmetros possuam os seguintes dados: v = {10, 5, 7, 15, 22, 9, 30} e a=6:
 A função não entrará no 1o if, pois a é diferente de 1, sendo assim, ela entrará no else. Entrando nesse else, é criada uma variavel X que recebe a chamada recursiva de funcao(a-1, v). Sendo assim X receberá o valor de 5. Após ter esse valor atribuido, passa para o próximo if que faz a verficação se X é maior do que o número presente na posição a-1 do vetor (nesse caso, posição 5, ou seja, o valor 9). Sendo essa verificação FALSA, pois 5 é menor que 9, ele sai desse if e vai para o próximo else retornando o v[a-1] que agora é o valor 22.
+![ex5](https://github.com/AED-PCO/lab-aed-pco-2022-2-gabriellaxdantas/blob/45e68020f852fa332d609c6033753ed4f098d37e/relatorio/Laboratorio%207/img/Lab7Ex5.png)
