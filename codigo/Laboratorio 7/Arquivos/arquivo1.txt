@@ -1,0 +1,7 @@
+Exercício 1 do Laboratório 7 de AED 
+Aluna: Gabriella Dantas
+Esse atividade consiste em realizar a comparação de um arquivo que vai ser lido pelo algoritimo (no caso esse)
+com um texto inserido no terminal pelo usuário. No fim ele mostrará a quantidade de palavras iguais e diferentes
+entre essas duas entradas de texto. 
+Agora vou inserir palavras repetidas para fazer os testes:
+Azul Azul Azul Azul 
