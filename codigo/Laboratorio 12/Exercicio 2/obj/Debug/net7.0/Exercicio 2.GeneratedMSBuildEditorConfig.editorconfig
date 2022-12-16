@@ -1,5 +1,5 @@
 is_global = true
-build_property.TargetFramework = net6.0
+build_property.TargetFramework = net7.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
 build_property.ProjectTypeGuids = 
@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Exercicio_3__Lista_
-build_property.ProjectDir = c:\Users\gabri\OneDrive\Área de Trabalho\Exercicio AED - GitHub\lab-aed-pco-2022-2-gabriellaxdantas\codigo\Laboratorio 10 (desafio)\Exercicio 3 (Lista)\
+build_property.RootNamespace = Exercicio_2
+build_property.ProjectDir = c:\Users\gabri\OneDrive\Área de Trabalho\Exercicio AED - GitHub\lab-aed-pco-2022-2-gabriellaxdantas\codigo\Laboratorio 12\Exercicio 2\
